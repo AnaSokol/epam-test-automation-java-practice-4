@@ -13,7 +13,7 @@ public class Task1 {
                    return false;
                }
            }
-        }else {
+        }else  if (order == SortOrder.DESC){
            for (int i = 1; i < array.length; i++) {
         	   if (array[i] > array[i-1]) {
         		   return false;  
