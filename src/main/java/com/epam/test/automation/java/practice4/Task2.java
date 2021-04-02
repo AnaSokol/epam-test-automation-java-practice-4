@@ -6,7 +6,7 @@ public class Task2 {
    
    public static int[] transform(int[] array, SortOrder order) {		        
 		int[] arrResult = Arrays.copyOf(array, array.length);
-		if (Task1.isSorted(array, SortOrder.ASC) || Task1.isSorted(array, SortOrder.DESC)) {
+		if ((Task1.isSorted(array, SortOrder.ASC) && order == SortOrder.ASC) || (Task1.isSorted(array, SortOrder.DESC) && order == SortOrder.DESC)) {
 		   for (int i=0; i<array.length; i++) {
 		   arrResult[i] = array[i]+i;
 		   }
