@@ -2,14 +2,17 @@ package com.epam.test.automation.java.practice4;
 
 public class Task3 {
 
-    /**
-     * <summary>
-     * Implement code according to description of task.
-     * </summary>
-     * if set invalid arguments in method, then method must throws
-     * IllegalArgumentException
-     */
-    public static int multiArithmeticElements(int a1, int t, int n) {
-        throw new UnsupportedOperationException();
+   public static int multiArithmeticElements(int a1, int t, int n) {
+        if (n <= 0) {
+        	throw new IllegalArgumentException("Value of n should be more than 0");
+        }
+        int a = a1;
+        int result = a1;
+        for (int i=1; i<n; i++) {
+        	a += t;
+        	result *= a;
+        }
+		return result;
+        
     }
 }
