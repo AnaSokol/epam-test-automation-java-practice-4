@@ -1,5 +1,4 @@
 package com.epam.test.automation.java.practice4;
-import java.util.Arrays;
 
 public class Task1 {
 
