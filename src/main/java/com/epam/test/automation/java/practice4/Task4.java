@@ -11,7 +11,7 @@ public class Task4 {
 	   }
 	    double a = a1;
 	    double sum = a1;
-		while (a > alim) {
+		while (a > alim && a >= 0.00000001) {
 			a *= t;
 			if (a <= alim) {
 				break;
