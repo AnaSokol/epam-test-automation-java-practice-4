@@ -22,6 +22,6 @@ public class Task4 {
 			}
 			sum +=a;
 	    }
-		return sum;
+		return java.lang.Math.round(sum);
 	}
 }
