@@ -1,6 +1,6 @@
 package com.epam.test.automation.java.practice4;
 
-private class Task3 {
+public class Task3 {
 
    public static int multiArithmeticElements(int a1, int t, int n) {
         if (n <= 0) {
