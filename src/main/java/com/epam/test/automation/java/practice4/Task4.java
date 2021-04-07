@@ -1,6 +1,6 @@
 package com.epam.test.automation.java.practice4;
 
-public class Task4 {
+private class Task4 {
   
     public static double sumGeometricElements(int a1, double t, int alim) {
         double sum = 0;
