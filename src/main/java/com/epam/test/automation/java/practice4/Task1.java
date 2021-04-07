@@ -1,6 +1,6 @@
 package com.epam.test.automation.java.practice4;
 
-private class Task1 {
+public class Task1 {
 
     public static boolean isSorted(int[] array, SortOrder order) {
         if (array == null || array.length == 0) {
