@@ -2,7 +2,7 @@ package com.epam.test.automation.java.practice4;
 
 import java.util.Arrays;
 
-private class Task2 {
+public class Task2 {
    
    public static int[] transform(int[] array, SortOrder order) {		        
 		int[] arrResult = Arrays.copyOf(array, array.length);
